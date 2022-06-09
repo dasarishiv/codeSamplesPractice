@@ -109,9 +109,9 @@ function isPalindrome(word: string): boolean {
     left++;
     right--;
   }
-
   return ans;
 }
-
-isPalindrome('neuquen'); // true
-isPalindrome('Buenos Aires'); // false
+console.log(':::::::palindrome::::');
+console.log(isPalindrome('neuquen')); // true
+console.log(isPalindrome('Buenos Aires')); // false
+console.log(isPalindrome('wow'));
